@@ -1,12 +1,5 @@
 import PackageDescription
 
-var package = Package(
-  name: "SwiftMoment",
-  targets: [
-    Target(name: "SwiftMoment")
-  ],
-  dependencies: [
-  ]
+let package = Package(
+    name: "SwiftMoment-michaeltrimm"
 )
-
-let lib = Product(name: "SwiftMoment", type: .Library(.Dynamic), modules: "SwiftMoment")
